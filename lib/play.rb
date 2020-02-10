@@ -36,3 +36,20 @@ def turn(board)
 end
 
 # Define your play method below
+def play(board)
+  # turn(board)
+  # gets.strip
+ # turn(board)
+ # gets.strip
+
+  board = 1
+  until board == 9
+    turn(board)
+    board += 1
+
+
+
+
+
+  end
+end
